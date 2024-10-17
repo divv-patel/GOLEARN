@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row; /* Ensure the flex direction is set to row */
+    margin-top: 60px;
+    height: 100vh; /* Make sure the parent div has a height */
+}
+
+.back{
+    background-image: url("./about.webp");
+    background-size: cover; /* or contain */
+    background-position: center;
+    height: 100vh;   
+    width: 50%;
+}
+
+.text{
+    background-color: #f0efef;
+    height: 100vh;  /* Ensure the child div takes up full height */
+    width: 50%;    /* This should be 50% of the grid */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -632px;
+}
+
+.adv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgb(1, 151, 151);
+    color: #fff;
+}
+
+.img{
+    height: 100%;
+    width: 70px;
+}
+
+img{
+    all: unset;
+    height: 100%;
+    width: 50px;
+}
+
+.dis{
+    max-width: 200px;
+}
+
+.dis p{
+    font-size: small;
+}

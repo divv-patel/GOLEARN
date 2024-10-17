@@ -1,0 +1,110 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgb(1, 151, 151);
+    gap:50px;
+}
+
+.contain h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.price_box{
+    height: 320px;
+    width: 250px;
+    border: 2px solid rgb(1, 151, 151);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    gap:5px;
+    border-radius: 2px;
+}
+
+.course_id{
+    display: flex;
+    flex-direction: row;
+}
+
+.price_box img{
+    all:unset;
+    height: 50px;
+    width: 50px;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap:5px;
+}
+
+.ratings img{
+    height: 20px;
+    width: 20px;
+}
+
+.notice ul{
+    all:unset;
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    max-width: 300px;
+    list-style:circle;
+    text-align: left;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#enroll{
+    margin-top: 25px;
+    background-color: rgb(1, 151, 151);
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#allbtn{
+    all:unset;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(1, 151, 151);
+    cursor: pointer;
+}
+
+#present4{
+    .present{
+        background-color: rgb(1, 151, 151);
+        color: #fff;
+        border: none;
+    }
+}

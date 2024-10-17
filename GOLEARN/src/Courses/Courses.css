@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#fff;
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.course h4{
+    margin-top: 30px;
+    color: rgb(1, 151, 151);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.course p{
+    max-width: 700px;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-top: 20px;
+}
+
+.course_box{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 200px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 1s ease;
+    border-radius: 2px;
+}
+
+.course_box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border: 2px solid rgb(1, 151, 151);
+}
+
+.course_box img{
+    all: unset;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.course_box p{
+    max-width: 120px;
+    color: rgb(1, 151, 151);
+}
+
+#mern{
+    margin-top: 0;
+    width: 150px;
+    height: 100px;
+}
+
+.mern_para {
+    position: absolute;
+    margin-top: 120px;
+}
+
+.mern_h3 {
+    position: absolute;
+    margin-top: 80px;
+}

@@ -1,0 +1,11 @@
+.nav-link.active button,
+button.active-button{
+    background-color: rgb(1, 151, 151);
+    color: #fff;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+
