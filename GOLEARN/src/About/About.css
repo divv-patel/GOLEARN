@@ -21,7 +21,7 @@
 
 .text{
     background-color: #f0efef;
-    height: 100vh;  /* Ensure the child div takes up full height */
+    height: 93vh;  /* Ensure the child div takes up full height */
     width: 50%;    /* This should be 50% of the grid */
     padding: 20px;
     display: flex;
@@ -29,8 +29,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 600px;
-    margin-top: -632px;
 }
 
 .adv{
@@ -60,7 +58,7 @@
 }
 
 .img{
-    height: 100%;
+    height: 70px;
     width: 70px;
 }
 
