@@ -74,7 +74,7 @@ const Contactus = () => {
         <div className="copywrite">
 
             <img id="copywrite_logo" src="./copywrite.png" alt="copywrite"></img>
-            <p>Developed by Jay Vyas, 2024</p>
+            <p>Developed by Diya, 2024</p>
 
         </div>
     
